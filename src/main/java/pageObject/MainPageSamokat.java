@@ -76,7 +76,7 @@ public class MainPageSamokat {
 
     // метод нажатия на кнопку о принятии все куки-файлов
     public MainPageSamokat clickCookieButton() {
-        if (buttonСookie.isDisplayed())
+        if (buttonСookie.isDisplayed()) // файлы куки не были приняты ранее
             buttonСookie.click();
         return this;
     }
