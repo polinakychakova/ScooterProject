@@ -49,6 +49,7 @@ public class MainPageSamokat {
 
     // метод нажатия кнопки "Заказать" вверху страницы
     public OrderPage clickOrderTopButton() {
+        buttonOrderTop.isDisplayed();
         buttonOrderTop.click();
         return page(OrderPage.class);
     }
